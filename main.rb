@@ -164,3 +164,37 @@ print "I'm learning Ruby!"
 # hash1.each do |key, value|
 #   puts "key is #{key} and value is #{value}"
 # end
+
+age = 15
+
+if age > 18
+    puts "You can vote"
+elsif age == 18
+    puts "You are 18 and you can't vote"
+else
+    puts "You can't vote"
+end
+
+days = [1, 2, 3, 4, 5, 6, 7]
+
+print "Enter the number of day: "
+day = gets.chomp().to_i
+
+case  day
+when 1
+    puts "Today is, Monday"
+when 2
+    puts "Today is, Tuesday"
+when 3
+    puts "Today is, Wednesday"
+when 4
+    puts "Today is, Thursday"
+when 5
+    puts "Today is, Friday"
+when 6
+    puts "Today is, Saturday"
+when 7
+    puts "Today is, Sunday"
+else
+    puts "Invalid day"
+end
