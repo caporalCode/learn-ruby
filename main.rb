@@ -165,36 +165,139 @@ print "I'm learning Ruby!"
 #   puts "key is #{key} and value is #{value}"
 # end
 
-age = 15
+# age = 15
 
-if age > 18
-    puts "You can vote"
-elsif age == 18
-    puts "You are 18 and you can't vote"
-else
-    puts "You can't vote"
+# if age > 18
+#     puts "You can vote"
+# elsif age == 18
+#     puts "You are 18 and you can't vote"
+# else
+#     puts "You can't vote"
+# end
+
+# days = [1, 2, 3, 4, 5, 6, 7]
+
+# print "Enter the number of day: "
+# day = gets.chomp().to_i
+
+# case  day
+# when 1
+#     puts "Today is, Monday"
+# when 2
+#     puts "Today is, Tuesday"
+# when 3
+#     puts "Today is, Wednesday"
+# when 4
+#     puts "Today is, Thursday"
+# when 5
+#     puts "Today is, Friday"
+# when 6
+#     puts "Today is, Saturday"
+# when 7
+#     puts "Today is, Sunday"
+# else
+#     puts "Invalid day"
+# end
+
+
+# for i in 1..10
+#     puts i
+# end
+
+# for i in [1,2,3,4,5, 6, 7,8,9,10] do
+#     puts i
+# end
+
+# x = 1
+
+# while x <= 10 do
+#     puts x
+#     x += 1
+# end
+
+# loop do
+#     puts "Enter a number the greater than 10"
+#     num = gets.chomp().to_i
+
+#     if num > 10
+#         break
+#     end
+# end
+
+# puts "Thank you!"
+# i = 1
+
+# until i == 11
+#     puts i
+#     i += 1
+# end
+# x = 3
+# unless x < 5
+#     puts "x is greater or equal to 5"
+# else
+#     puts "x is less than 5"
+  
+# end
+ 
+
+# x = 1
+# while x <= 10 do
+#     if x==5
+# #         next # work only with for loop
+#     end
+#     puts x
+#     x += 1
+# end
+
+# for i in 1..10 do
+#     if i == 5
+#         next
+#     end
+#     puts i
+# end
+
+# x = 1
+
+# while x < 5
+#     puts x
+#     x += 1
+#     redo if x==5
+# end
+
+
+# for i in 1..10 do
+
+#     begin
+#         puts i
+#     raise if i == 10
+#     rescue
+#         retry
+#     end
+# end
+
+
+# def hello(user, age)
+#     puts "Hello from method #{user}, your age is #{age}"
+# end
+
+# hello("Rivaland", 15)
+# hello("Henri", 18)
+
+
+class Car 
+    @name
+    @model
+    @topspeed   
+    def initialize(name, model, topspeed)
+        @name = name
+        @model = model
+        @topspeed = topspeed
+    end
+
+    def getName()
+        puts "Car name is #{@name}"
+    end
 end
 
-days = [1, 2, 3, 4, 5, 6, 7]
-
-print "Enter the number of day: "
-day = gets.chomp().to_i
-
-case  day
-when 1
-    puts "Today is, Monday"
-when 2
-    puts "Today is, Tuesday"
-when 3
-    puts "Today is, Wednesday"
-when 4
-    puts "Today is, Thursday"
-when 5
-    puts "Today is, Friday"
-when 6
-    puts "Today is, Saturday"
-when 7
-    puts "Today is, Sunday"
-else
-    puts "Invalid day"
-end
+car1 = Car.new("Ford", "Mustang", 180)
+car1.getName()
