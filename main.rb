@@ -98,10 +98,69 @@ print "I'm learning Ruby!"
 # puts (2 >= 4)
 # puts (2 <= 4)
 
-a = 10
-b = 20
+# a = 10
+# b = 20
 
-c = (a > b) ? a : b
+# c = (a > b) ? a : b
 
 
-puts "Greater value of a and b is c = #{c}"
+# puts "Greater value of a and b is c = #{c}"
+
+# arr1 = [1,2,3,4, 4,5 , 6, 5,6,7,8,9,10]
+
+# arr2 = Array.new(10)
+
+
+# # puts arr1.size
+# # puts arr2.length
+
+
+# puts arr1.at(1)
+# # puts arr1.fetch(10)
+
+# puts "first element of arr1 #{arr1.first}"
+# puts "last element of arr1 #{arr1.last}"
+
+# puts "check if arr1 has 3 elements #{arr1.take(2)}"
+
+# arr1.push(11)
+# print  arr1
+# puts
+
+# arr1 << 12
+# print arr1
+# puts
+
+# arr1.unshift(45)
+# print arr1
+# puts
+
+# arr1.insert(3,14)
+# print arr1
+# puts
+
+# print arr1.drop(2)
+# puts
+
+# print arr1.delete(4)
+# puts
+
+# print arr1.uniq
+# puts
+
+# print arr1
+# puts
+
+# hash1 = {"name" => "Rivaland", "age" => 19, "profession" => "Developer"}
+# # hash2 = {"name" : "Daniel", "age": 21, "profession" : "Designer"}
+
+
+# puts hash1
+# # puts hash2
+
+
+# puts hash1["name"]
+
+# hash1.each do |key, value|
+#   puts "key is #{key} and value is #{value}"
+# end
